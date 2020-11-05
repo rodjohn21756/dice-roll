@@ -1,0 +1,31 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <label for="name">Enter a number of dice:</label>
+
+    <input
+      type="text"
+      id="roll-number"
+      placeholder="roll-dice"
+      name="name"
+      required
+      minlength="4"
+      maxlength="8"
+      size="10"
+    />
+    <button id="roll-dice-button" type="button">Roll</button>
+
+    <button id="show-all">show all</button>
+
+    <li>
+      <ul id="all-rolls"></ul>
+
+      Total: <span id="total-dice">0</span>
+    </li>
+    <script src="main.js"></script>
+  </body>
+</html>
